@@ -1,0 +1,35 @@
+table {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+tr {
+    padding: 4px;
+    margin: 2px;
+    background: gray;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+thead tr {
+    background-color: dimgray;
+}
+
+thread tr, .header-of-left th{
+    background-color: grey;
+}
+
+td, th{
+    padding: 6px;
+}
+
+.error{
+    background: #f5baba;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+}
